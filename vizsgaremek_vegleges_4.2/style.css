@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1f21;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+iframe{
+    /*display:none;*/
+}
+#login {
+    font-family: Arial, sans-serif; 
+    background-color: #333;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}   
+#menu-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}   
+#menu-right {
+    display: flex;
+    align-items: center;
+}   
+#menu-right img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}   
+#menu-right a {
+    color: #fd7015;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 16px;
+}   
+#menu-right input[type="button"] {
+    background-color: #fd7015;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}   
+#menu-right input[type="button"]:hover {
+    background-color: #e0630d;
+}   
+.main-content {
+    text-align: center;
+    margin-top: 50px;
+    flex: 1;
+}   
+h1 {
+    color: #ff6b6b;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#menu-left a button {
+    background-color: #333;
+    color: #fd7015;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}   
+#menu-left a{
+    background-color: #333;
+    color: #fd7015;
+    border: none;
+    text-decoration: none;
+}  
+
+#menu-left a button:hover {
+    background-color: #444;
+    color: #ffffff;
+}
+b{
+    color: #fd7015; 
+}
+#cimke{
+    background-color:#333;
+    color: #d3d3d3;
+}
+#hiba{
+    text-align: center;
+}
+#ad_mod form {
+    background-color: #2a2c2f;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    margin: auto;
+}
+#ad_mod h2 {
+    color: #ff6b6b;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#ad_mod label {
+    font-size: 14px;
+    color: #fd7015;
+    margin-bottom: 5px;
+    text-align: left;
+    display: block;
+}
+
+#ad_mod input[type="text"],
+#ad_mod input[type="email"],
+#ad_mod input[type="password"] {
+    width: 100%;
+    padding:7px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    background-color: #1d1f21;
+    color: #e0e0e0;
+    font-size: 14px;
+}
+
+#ad_mod input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#ad_mod input[type="submit"],#ad_mod input[type="button"] {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#ad_mod input[type="submit"] {
+    background-color: #fd7015;
+    color: white;
+}
+
+#ad_mod input[type="submit"]:hover {
+    background-color:  #dd5800;
+    transform: translateY(-2px);
+}
+
+#jmodositas {
+    background-color: #fd7015;
+    color: white;
+}
+
+#jmodositas:hover {
+    background-color:  #dd5800;
+    transform: translateY(-2px);
+}
+
+#fiokkep{
+    height: 200px;
+    width: 200px;
+}
+#fiok{
+    background-color: #1d1f21;
+    color: #e0e0e0;
+}
+.review {
+        margin-bottom: 15px;
+}
+.review strong {
+        color: #ff6b6b;
+}
+.review small {
+        display: block;
+        color: #aaa;
+        margin-top: 5px;
+}
+.fiok-book-cover {
+        max-width: 70px;
+        height: auto;
+        max-height: 100px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.profile-container{
+    border-radius: 50%;
+}
+
+#jelszo-mod form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#jelszo-mod h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+}
+
+#jelszo-mod label {
+    font-size: 0.9em;
+    color: #333;
+}
+
+#jelszo-mod input[type="text"],#jelszo-mod input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+#jelszo-mod input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#jelszo-mod input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+#jelszo-mod #form-group {
+    margin-bottom: 15px;
+}
+
+
